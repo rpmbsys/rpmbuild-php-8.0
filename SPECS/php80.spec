@@ -146,7 +146,7 @@
 
 Summary: PHP scripting language for creating dynamic web sites
 Name: %{php_main}
-Version: 8.0.13
+Version: 8.0.14
 Release: %{rpmrel}%{?dist}
 
 # All files licensed under PHP version 3.01, except
@@ -1556,6 +1556,9 @@ exit 0
 %endif
 
 %changelog
+* Thu Dec 16 2021 Remi Collet <remi@remirepo.net> - 8.0.14-1
+- Update to 8.0.14 - http://www.php.net/releases/8_0_14.php
+
 * Wed Nov 17 2021 Remi Collet <remi@remirepo.net> - 8.0.13-1
 - Update to 8.0.13 - http://www.php.net/releases/8_0_13.php
 - phar: switch to sha256 signature by default, backported from 8.1
